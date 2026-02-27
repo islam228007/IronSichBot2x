@@ -3,7 +3,9 @@ from discord.ext import commands
 
 # ===================== НАЛАШТУВАННЯ =====================
 
-BOT_TOKEN = “MTQ3MTY3MTI0MDA3ODEzNTM0Nw.GHG30T.3wiTov5VZczFlnNzXuB3I7pspT7R2-7lj3i7vM”
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+
 
 SERVER_IP = “your.server.ip:28015”
 SERVER_NAME = “EU | 5X”
